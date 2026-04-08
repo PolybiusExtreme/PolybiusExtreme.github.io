@@ -19,7 +19,7 @@ This tool acts as the essential bridge between emulators and your arcade hardwar
 *   Ultimarc LED boards
 
 ### INI Support
-* MAMEHooker INI files are supported
+* MAMEHooker INI files and KeyStates are supported
 *   **OutputHooker** features a built-in editor inspired by the original MAMEHooker workflow,  
      allowing you to configure hardware triggers without leaving the app
 
