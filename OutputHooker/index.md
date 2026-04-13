@@ -16,6 +16,7 @@ This tool acts as the essential bridge between emulators and your arcade hardwar
 
 ### Hardware Support
 *   Lightguns with COM Port support (GUN4IR, ...)
+*   LEDWiz boards (Original, Clone, Pinscape)
 *   Ultimarc LED boards
 
 ### INI Support
@@ -51,9 +52,11 @@ feel free to open an [issue](https://github.com/PolybiusExtreme/OutputHooker/iss
 ## Build
 Most of the application is Qt-based,  
 so you'll need the Qt environment along with the MSVC 2022 toolchain.  
-For the hardware side, I’ve integrated the Ultimarc PacDrive SDK for the LED boards.
+For the hardware side, I’ve integrated the improved LEDWiz SDK  
+and the Ultimarc PacDrive SDK for the LED boards.
 - Qt 6.10.2 with a CMake file with MSVC 2022
 - CMake Version: 3.30.5
+- LEDWiz SDK - [https://github.com/mjrgh/lwcloneu2](https://github.com/mjrgh/lwcloneu2)
 - Ultimarc PacDrive SDK - [https://www.ultimarc.com/PacDriveSDK.zip](https://www.ultimarc.com/PacDriveSDK.zip)
 
 ***
