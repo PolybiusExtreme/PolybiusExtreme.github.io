@@ -15,7 +15,7 @@ This tool acts as the essential bridge between emulators and your arcade hardwar
 *   This means that any emulator, launcher, or tool works with **OutputHooker**!
 
 ### Hardware Support
-*   Lightguns with COM Port support (GUN4IR, ...)
+*   Lightguns with COM Port support (GUN4IR, Blamcon, RS3 Reaper, OpenFIRE, X-Gunner, ...)
 *   LEDWiz boards (Original, Clone, Pinscape)
 *   Ultimarc LED boards
 
