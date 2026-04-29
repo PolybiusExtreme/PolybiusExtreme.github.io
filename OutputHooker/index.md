@@ -19,7 +19,7 @@ This tool acts as the essential bridge between emulators and your arcade hardwar
 *   Lightguns with TCP support (Sinden)
 *   LEDWiz boards (Original, Clone, Pinscape)
 *   Ultimarc LED boards
-*   WLED boards (UDP)
+*   WLED boards (UDP Realtime)
 *   Any hardware that receives TCP/UDP commands
 
 ### INI Support
