@@ -21,6 +21,7 @@ This tool acts as the essential bridge between emulators and your arcade hardwar
 *   LEDWiz boards (Original, Clone, Pinscape)
 *   Ultimarc LED boards
 *   WLED boards (UDP Realtime)
+*   Gamecontrollers with SDL3 support (Force Feedback)
 *   Any hardware that receives TCP/UDP or USB HID commands
 
 ### INI Support
@@ -57,13 +58,15 @@ feel free to open an [issue](https://github.com/PolybiusExtreme/OutputHooker/iss
 Most of the application is Qt-based,  
 so you'll need the Qt environment along with the MSVC 2022 toolchain.  
 For the hardware side, I’ve integrated the improved LEDWiz SDK,  
-the PacDrive SDK for Ultimarc LED boards  
-and the HIDAPI library for generic USB HID devices.
+the PacDrive SDK for Ultimarc LED boards,  
+the HIDAPI library for generic USB HID devices  
+and the SDL3 library for generic gamecontrollers.
 - Qt 6.10.2 with a CMake file with MSVC 2022
 - CMake Version: 3.30.5
 - LEDWiz SDK - [https://github.com/mjrgh/lwcloneu2](https://github.com/mjrgh/lwcloneu2)
 - Ultimarc PacDrive SDK - [https://www.ultimarc.com/PacDriveSDK.zip](https://www.ultimarc.com/PacDriveSDK.zip)
 - libusb HIDAPI library - [https://github.com/libusb/hidapi](https://github.com/libusb/hidapi)
+- libsdl SDL3 library - [https://github.com/libsdl-org/SDL](https://github.com/libsdl-org/SDL)
 
 ***
 ## Credits
