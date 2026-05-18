@@ -29,6 +29,9 @@ This tool acts as the essential bridge between emulators and your arcade hardwar
 *   **OutputHooker** features a built-in editor inspired by the original MAMEHooker workflow,  
      allowing you to configure hardware triggers without leaving the app
 
+### MAME Universal State Outputs (LUA) Support
+* [MAME LUA outputs](https://github.com/djGLiTCH/MAME-LUA-SCRIPT-STATE-OUTPUTS) by djGliTCH are supported
+
 ***
 ## Getting Started
 1. Download the latest build from the [Releases](https://github.com/PolybiusExtreme/OutputHooker/releases) page
