@@ -76,4 +76,13 @@ and the SDL3 library for generic gamecontrollers.
 - 6Bolt ([Hook of the Reaper](https://hotr.6bolt.com/) developer)
 
 ***
+## Special Thanks
+- Hexxed123
+- djGliTCH
+- Cheesmaker
+- Bandicoot37  
+
+and all other users for their feedback and support!
+
+***
 **Copyright &copy; 2026 by PolybiusExtreme**
