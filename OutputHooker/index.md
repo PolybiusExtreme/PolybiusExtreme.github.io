@@ -13,6 +13,11 @@ This tool acts as the essential bridge between emulators and your arcade hardwar
 *   Network - Receive output data over network connections for modern setups
 *   Windows Messages - Full backward compatibility with the "old" Windows messaging system
 *   This means that any emulator, launcher, or tool works with **OutputHooker**!
+*   Output Processing Method - If an application sends outputs over both Network and Windows
+    Messages, *Settings* decides what happens. **Priority** uses the preferred output source and
+    falls back to the other one if it stays quiet, **Exclusive** uses only the preferred source,
+    and **Concurrent** processes both. The preferred source defaults to Network, and the method
+    defaults to Priority, so no command is sent to your hardware twice.
 
 ### Hardware Support
 *   Lightguns with COM Port support (Blamcon, Fusion, GUN4IR, OpenFIRE, RS MX24, RS Reaper, X-Gunner)
@@ -73,12 +78,12 @@ and the SDL3 library for generic gamecontrollers.
 - Howard Casto (MAMEHooker & MAME Interop SDK developer)  
 - Ben Baker (MAME Interop SDK & Ultimarc SDK developer)  
 - Aaron Giles (MAME output code developer)
+- djGliTCH (MAME State Output Project (MSOP) developer)
 - 6Bolt ([Hook of the Reaper](https://hotr.6bolt.com/) developer)
 
 ***
 ## Special Thanks
 - Hexxed123
-- djGliTCH
 - Cheesmaker
 - Bandicoot37  
 
