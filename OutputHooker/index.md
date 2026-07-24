@@ -35,7 +35,7 @@ This tool acts as the essential bridge between emulators and your arcade hardwar
      allowing you to configure hardware triggers without leaving the app
 
 ### MAME State Output Project Support
-* [MAME State Output Plugin](https://github.com/djGLiTCH/MAME-LUA-SCRIPT-STATE-OUTPUTS) by djGliTCH is supported
+* [MAME State Output Plugin](https://github.com/djGLiTCH/MAME-LUA-SCRIPT-STATE-OUTPUTS) by djGLiTCH is supported
 
 ***
 ## Getting Started
